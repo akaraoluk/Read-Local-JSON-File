@@ -1,0 +1,110 @@
+{
+    "data": {
+        "countries": [
+            {
+                "countryName": "England",
+                "flagUrl": "",
+                "leagues": [
+                    {
+                        "leagueName": "Premier League",
+                        "legueLogo": "https://www.fifplay.com/img/public/premier-league-2-logo.png",
+                        "clubs": [
+                            {
+                                "clubName": "Manchester City",
+                                "clubLogo": "https://www.resources.premierleague.com/premierleague/badges/25/t43@x2.png"
+                            },
+                            {
+                                "clubName": "Liverpool",
+                                "clubLogo": "https://www.resources.premierleague.com/premierleague/badges/25/t14@x2.png"
+                            },
+                            {
+                                "clubName": "Chelsea",
+                                "clubLogo": "https://www.resources.premierleague.com/premierleague/badges/25/t8@x2.png"
+                            },
+                            {
+                                "clubName": "Tottenham Hotspur",
+                                "clubLogo": "https://www.resources.premierleague.com/premierleague/badges/25/t6@x2.png"
+                            },
+                            {
+                                "clubName": "Arsenal",
+                                "clubLogo": "https://www.resources.premierleague.com/premierleague/badges/25/t3@x2.png"
+                            },
+                            {
+                                "clubName": "Manchester United",
+                                "clubLogo": "https://www.resources.premierleague.com/premierleague/badges/25/t1@x2.png"
+                            }
+                        ]
+                    },
+                    {
+                        "leagueName": "Championship",
+                        "legueLogo": "https://seeklogo.com/images/U/UEFA_Champions_League-logo-300A743B55-seeklogo.com.png",
+                        "clubs": [
+                            {
+                                "clubName": "Fulham",
+                                "clubLogo": "https://seeklogo.com/images/F/fulham-fc-logo-EBBC39136A-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "AFC Bournemouth",
+                                "clubLogo": "https://seeklogo.com/images/A/afc-bournemouth-logo-FAA541D485-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Huddersfield Town",
+                                "clubLogo": "https://seeklogo.com/images/H/huddersfield-town-fc-logo-7B21BFB1EF-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Notting Forest",
+                                "clubLogo": "https://seeklogo.com/images/N/nottingham-forest-fc-logo-A7A0CEF79D-seeklogo.com.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "countryName": "Spain",
+                "flagUrl": "",
+                "leagues": [
+                    {
+                        "leagueName": "LaLiga Santander",
+                        "legueLogo": "https://seeklogo.com/images/L/laliga-logo-BF4924ED38-seeklogo.com.png",
+                        "clubs": [
+                            {
+                                "clubName": "Real Madrid",
+                                "clubLogo" "https://seeklogo.com/images/R/Real_Madrid_Club_de_Futbol-logo-60682932F8-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Barcelona",
+                                "clubLogo": "https://seeklogo.com/images/F/FC_Barcelona-logo-D941E13B46-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Chelsea",
+                                "clubLogo": "https://seeklogo.com/images/C/chelsea-fc-logo-A24FEB6BFB-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Atletico Madrid",
+                                "clubLogo": "https://seeklogo.com/images/A/atletico-madrid-new-logo-6AC4CCB6A2-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Sevilla",
+                                "clubLogo": "https://seeklogo.com/images/S/Sevilla_FC-logo-66CEB69939-seeklogo.com.png"
+                            }
+                        ]
+                    },
+                    {
+                        "leagueName": "LaLiga Smartbank",
+                        "legueLogo": "https://seeklogo.com/images/L/laliga-somalia-fans-logo-860A94A6EB-seeklogo.com.png",
+                        "clubs": [
+                            {
+                                "clubName": "Almeria",
+                                "clubLogo" "https://seeklogo.com/images/U/Union_Deportiva_Almeria-logo-841CB1A0B1-seeklogo.com.png"
+                            },
+                            {
+                                "clubName": "Real Valladolid",
+                                "clubLogo" "https://seeklogo.com/images/R/Real_Valladolid_Club_de_Futbol-logo-E2828971A8-seeklogo.com.png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
