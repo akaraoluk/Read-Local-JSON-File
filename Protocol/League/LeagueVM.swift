@@ -11,9 +11,9 @@ class LeagueVM {
     
     var listItems = [League]()
     
-    func configureList() {
-        listItems = [League(name: "Premier League", logo: "league1"),
-                     League(name: "FA Cup", logo: "league2"),
-                     League(name: "Championship", logo: "league3")]
-    }
+//    func configureList() {
+//        listItems = [League(name: "Premier League", logo: "league1"),
+//                     League(name: "FA Cup", logo: "league2"),
+//                     League(name: "Championship", logo: "league3")]
+//    }
 }

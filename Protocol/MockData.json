@@ -7,7 +7,7 @@
                 "leagues": [
                     {
                         "leagueName": "Premier League",
-                        "legueLogo": "https://www.fifplay.com/img/public/premier-league-2-logo.png",
+                        "leagueLogo": "https://www.fifplay.com/img/public/premier-league-2-logo.png",
                         "clubs": [
                             {
                                 "clubName": "Manchester City",
@@ -37,7 +37,7 @@
                     },
                     {
                         "leagueName": "Championship",
-                        "legueLogo": "https://seeklogo.com/images/U/UEFA_Champions_League-logo-300A743B55-seeklogo.com.png",
+                        "leagueLogo": "https://seeklogo.com/images/U/UEFA_Champions_League-logo-300A743B55-seeklogo.com.png",
                         "clubs": [
                             {
                                 "clubName": "Fulham",
@@ -65,7 +65,7 @@
                 "leagues": [
                     {
                         "leagueName": "LaLiga Santander",
-                        "legueLogo": "https://seeklogo.com/images/L/laliga-logo-BF4924ED38-seeklogo.com.png",
+                        "leagueLogo": "https://seeklogo.com/images/L/laliga-logo-BF4924ED38-seeklogo.com.png",
                         "clubs": [
                             {
                                 "clubName": "Real Madrid",
@@ -74,10 +74,6 @@
                             {
                                 "clubName": "Barcelona",
                                 "clubLogo": "https://seeklogo.com/images/F/FC_Barcelona-logo-D941E13B46-seeklogo.com.png"
-                            },
-                            {
-                                "clubName": "Chelsea",
-                                "clubLogo": "https://seeklogo.com/images/C/chelsea-fc-logo-A24FEB6BFB-seeklogo.com.png"
                             },
                             {
                                 "clubName": "Atletico Madrid",
@@ -91,7 +87,7 @@
                     },
                     {
                         "leagueName": "LaLiga Smartbank",
-                        "legueLogo": "https://seeklogo.com/images/L/laliga-somalia-fans-logo-860A94A6EB-seeklogo.com.png",
+                        "leagueLogo": "https://seeklogo.com/images/L/laliga-somalia-fans-logo-860A94A6EB-seeklogo.com.png",
                         "clubs": [
                             {
                                 "clubName": "Almeria",

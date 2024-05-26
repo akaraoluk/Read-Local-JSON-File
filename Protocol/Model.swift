@@ -7,34 +7,52 @@
 
 import Foundation
 
-struct Country: ListCellProtocol {
-    let name: String
-    let flag: String
+struct MainData: Codable {
+    let data: MainDataCountry?
+}
+
+struct MainDataCountry: Codable {
+    let countries: [Country]?
+}
+
+struct Country: Codable, ListCellProtocol {
+    let countryName: String?
+    let flagUrl: String?
+    let leagues: [League]?
     
     var iconName: String {
-        flag
+        flagUrl ?? ""
     }
     
     var titleText: String {
-        name
+        countryName ?? ""
     }
     
 }
 
-struct League: ListCellProtocol {
-    let name: String
-    let logo: String
+struct League: Codable, ListCellProtocol {
+    let leagueName: String?
+    let leagueLogo: String?
+    let clubs: [Club]?
     
     var iconName: String {
-        logo
+        leagueLogo ?? ""
     }
     
     var titleText: String {
-        name
+        leagueName ?? ""
     }
 }
 
-struct Club {
-    let clubName: String
-    let clubLogo: String
+struct Club: Codable, ListCellProtocol {
+    let clubName: String?
+    let clubLogo: String?
+    
+    var iconName: String {
+        clubLogo ?? ""
+    }
+    
+    var titleText: String {
+        clubName ?? ""
+    }
 }

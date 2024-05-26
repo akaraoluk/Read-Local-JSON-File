@@ -11,10 +11,15 @@ class CountyVM {
     
     var listItems = [Country]()
     
-    func configureList() {
-        listItems = [Country(name: "England", flag: "flag1"),
-                     Country(name: "Germany", flag: "flag2"),
-                     Country(name: "Italy", flag: "flag3"),
-                     Country(name: "Spain", flag: "flag4")]
+    func configureList(complete: @escaping()->()) {
+        JsonParser.shared.parse(type: MainData.self, resourceName: "MockData") { response in
+            if let list = response.data?.countries {
+                self.listItems = list
+                complete()
+            }
+        } failure: { errorMessage in
+            print("error: \(errorMessage)")
+        }
+
     }
 }

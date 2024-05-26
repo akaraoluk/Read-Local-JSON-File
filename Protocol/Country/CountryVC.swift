@@ -17,12 +17,11 @@ class CountryVC: UIViewController {
         super.viewDidLoad()
 
         table.register(UINib(nibName: "\(ListCell.self)", bundle: nil), forCellReuseIdentifier: "\(ListCell.self)")
-        viewModel.configureList()
+        viewModel.configureList {
+            self.table.reloadData()
+        }
         
     }
-    
-
-
 
 }
 
@@ -39,6 +38,7 @@ extension CountryVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let controller = storyboard?.instantiateViewController(withIdentifier: "LeagueVC") as! LeagueVC
+        controller.listItems = viewModel.listItems[indexPath.row].leagues ?? []
         navigationController?.show(controller, sender: nil)
     }
 }

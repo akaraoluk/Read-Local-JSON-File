@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1529A68A2C03AD3A00ED219D /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529A6892C03AD3A00ED219D /* JsonParser.swift */; };
+		1529A68D2C03B95C00ED219D /* ClubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529A68C2C03B95C00ED219D /* ClubVC.swift */; };
 		157FE0002C02136F001BDB04 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157FDFFF2C02136F001BDB04 /* LeagueVC.swift */; };
 		157FE0022C021391001BDB04 /* LeagueVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157FE0012C021391001BDB04 /* LeagueVM.swift */; };
 		157FE0062C021C37001BDB04 /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 157FE0052C021C37001BDB04 /* MockData.json */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1529A6892C03AD3A00ED219D /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		1529A68C2C03B95C00ED219D /* ClubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubVC.swift; sourceTree = "<group>"; };
 		157FDFFF2C02136F001BDB04 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		157FE0012C021391001BDB04 /* LeagueVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVM.swift; sourceTree = "<group>"; };
 		157FE0052C021C37001BDB04 /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1529A68B2C03B94900ED219D /* Club */ = {
+			isa = PBXGroup;
+			children = (
+				1529A68C2C03B95C00ED219D /* ClubVC.swift */,
+			);
+			path = Club;
+			sourceTree = "<group>";
+		};
 		157FDFFE2C021324001BDB04 /* League */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +91,7 @@
 		15AF705A2C012F4E00AE6585 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				1529A68B2C03B94900ED219D /* Club */,
 				15AF70792C01333800AE6585 /* Model.swift */,
 				15AF706F2C012FDF00AE6585 /* Country */,
 				157FDFFE2C021324001BDB04 /* League */,
@@ -90,6 +103,7 @@
 				15AF70662C012F5200AE6585 /* LaunchScreen.storyboard */,
 				15AF70692C012F5200AE6585 /* Info.plist */,
 				157FE0052C021C37001BDB04 /* MockData.json */,
+				1529A6892C03AD3A00ED219D /* JsonParser.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -191,8 +205,10 @@
 				15AF705C2C012F4E00AE6585 /* AppDelegate.swift in Sources */,
 				157FE0002C02136F001BDB04 /* LeagueVC.swift in Sources */,
 				15AF70772C01317200AE6585 /* ListCell.swift in Sources */,
+				1529A68D2C03B95C00ED219D /* ClubVC.swift in Sources */,
 				15AF705E2C012F4E00AE6585 /* SceneDelegate.swift in Sources */,
 				157FE0022C021391001BDB04 /* LeagueVM.swift in Sources */,
+				1529A68A2C03AD3A00ED219D /* JsonParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
